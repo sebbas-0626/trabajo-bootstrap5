@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://use.fortawesome.com/349cfdf6.js"></script>
+    <link rel="stylesheet"  href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+
+   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/sharp-solid.css">
+  
+    <title>Pagina web educacion</title>
+   
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50"> 
+    <nav class="navbar navbar-expand-sm bg-white justify-content-between fixed-top shadow">
+        <div class="container">
+            <a href="#main" class="navbar-brand d-flex align-items-center text-decoration-none">
+                <img class="rounded-circle img-fluid img-logo" src="/img/educacion.jpg">
+                <h2 class="ms-3">
+                    <small class="text-primary text-uppercase fw-bold">E-kids School</small>
+                </h2>
+            </a>
+            <!-- menu hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbar -->
+            <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
+                <ul class="navbar-nav justify-content-center align-items-center">
+                    <li class="nav-item"><a class="nav-link text-primary fw-bold" href="#nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary fw-bold" href="#video">Video institucional</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary fw-bold" href="#profesores">Profesores</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary fw-bold" href="#metodologia">Metodologia de trabajo</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary fw-bold" href="#contacto">Contacto</a></li>
+                    <i class="fa-sharp fa-solid fa-magnifying-glass ms-3"></i>
+                </ul> 
+            </div>
+        </div>
+    </nav>
+
+    <section class="section bg-primary" id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 align-self-center">
+                    <div class="text-start">
+                        <h1 class="text-uppercase">
+                            La educación es un proceso complejo en la vida del ser humano
+                        </h1>
+                        <p class="mt-3">
+                            Apoyamos también la capacitación de más de 400 maestros y autoridades 
+                            educativas de Jalisco, Sonora y Tabasco en el marco del modelo Escuelas
+                             Amigas de Niños, Niñas y Adolescentes, con temas de perspectiva de género, 
+                             interculturalidad, prevención de violencia y prevención de embarazos 
+                             adolescentes. 7,500 estudiantes de estos tres estados se beneficiarán 
+                             con la implementación de estos conocimientos en el aula.
+                        </p>
+                        <button type="button" class="btn btn-outline-dark">Read More</button>
+                    </div>
+                </div>
+                <div class="col-md-7 align-self-center">
+                    <img src="/img/vector2.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="mt-n8">
+        <div class="container">
+            <div class="bg-white rounded-3 shadow text-center">
+                <div class="row">
+                    <div class="col-md-4 border-end">
+                        <div class="p-5">
+                            <img src="/img/colegio.svg" alt="" width="150">
+                            <h6 class="fw-bold">
+                                Institución Educativa E-kids School
+                            </h6>
+                            <p>Nuestro reto es lograr que todos los niños y niñas accedan a educación de calidad.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 border-end">
+                        <div class="p-5">
+                            <img src="/img/colegio1.svg" alt="" width="150">
+                            <h6 class="fw-bold">
+                                Institución Educativa E-kids School
+                            </h6>
+                            <p> Esperamos que permanezcan en nuestra institucion y la concluyan con los aprendizajes.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-5">
+                            <img src="/img/colegio3.svg" alt="" width="150">
+                            <h6 class="fw-bold">
+                                Institución Educativa E-kids School
+                            </h6>
+                            <p>Esperados para su edad y nivel educativo, especialmente los niños, niñas y adolescentes más vulnerables</p>
+                        </div>
+                    </div>
+                    
+                    <!-- <div class="col-4"></div> -->
+                    <!-- <div class="col-4"></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- nosotros-->
+    <section class="section text-end" id="nosotros">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/img/vector6.svg" alt="" class="img">
+                </div>
+                
+                <div class="col-md-6 text-start align-self-center">
+                    <h2 class="text-uppercase">
+                        Calidad Educativa
+                        </h2>
+                    <p>Nuestro reto es lograr que todos los niños y niñas accedan a 
+                        educación de calidad, permanezcan en ella y la concluyan con 
+                        los aprendizajes esperados para su edad y nivel educativo, 
+                        especialmente los niños, niñas y adolescentes más vulnerables.</p>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <!--Video institucional-->
+    <section class="section bg-light  text-end" id="video">
+        <div class="container">
+            <div class="row">
+                 
+                <div class="col-md-6 text-start align-self-center">
+                    <h2 class="text-uppercase">Video institucional</h2>
+
+                    <p>La educación es un derecho básico de todos los niños, 
+                        niñas y adolescentes, que les proporciona habilidades
+                        y conocimientos necesarios para desarrollarse como 
+                        adultos y además les da herramientas para conocer y 
+                        ejercer sus otros derechos.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <video src="video/video.mp4" controls type="video/mp4"></video>
+                    <!-- <img src="/img/vector4(2).svg" alt="" class="img"> -->
+                </div>
+               
+            </div>
+        </div>
+        
+    </section>
+
+    <!--profesores-->
+    <section class="section bg-primary text-end" id="profesores">
+        <div class="container">
+            <h2 class="text-center text-white">
+                Nuestros Profesores
+            </h2>
+            <p class="lead text-center mb-5 text-white">
+                Nuestra institucion posee instructores con mas de 5
+                años de experiencia y una excelente calidad.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/6.jpg" 
+                            class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Carlos Quintero</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur 
+                                adipisicing elit. Quam beatae minus aperiam provident porro blanditiis!
+                            </p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/25.jpg" 
+                            class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Camila Avila</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur 
+                                adipisicing elit. Quam beatae minus aperiam provident porro blanditiis!
+                            </p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/17.jpg" 
+                            class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Esteban Castro</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur 
+                                adipisicing elit. Quam beatae minus aperiam provident porro blanditiis!
+                            </p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/10.jpg" 
+                            class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Julia Torres</h3>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur 
+                                adipisicing elit. Quam beatae minus aperiam provident porro blanditiis!
+                            </p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!--metodologia-->
+    <section class="section  text-end" id="metodologia">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                   <img src="/img/vector5.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6 text-start align-self-center">
+                    <h2 class="text-uppercase">metodología educativa    </h2>
+                    <p>La metodología educativa se puede definir como el modo en que los docentes 
+                        y pedagogos desarrollan su práctica diaria. A través de un conjunto de
+                         herramientas, técnicas, estrategias y métodos didácticos, se busca 
+                         afianzar un contenido, motivar y darle sentido al conocimiento, así
+                          como evaluar, diagnosticar y analizar las capacidades y dificultades de los alumnos.</p>
+                </div>
+               
+            </div>
+        </div>
+        
+    </section>
+
+    <!--contacto-->
+    <section class="section bg-light text-end" id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.6142828121688!2d-75.28836265123918!3d2.9379133318502975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b7460bdbb5ecb%3A0x68d4fb72fa36244a!2sCorporaci%C3%B3n%20Universitaria%20Del%20Huila%20-%20Corhuila!5e0!3m2!1ses!2sco!4v1664917673695!5m2!1ses!2sco"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6 text-start align-self-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="text-uppercase">informacion de Contacto</h2>
+                            <ul class="list-group list-group-flush lead">
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Ubicación:</span>
+                                    Calle 15 Sur # 8E – 28
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Teléfono:</span>
+                                    (+57)32022545154
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Email institucional:</span>
+                                    info@monntessoripitalito.edu.co
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="fw-bold">educacion:</span>
+                                   
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Celular:</span>
+                                    (099) 836 5177 888
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row text-center py-5">
+                <span>&copy;  2022 Institución Educativa Montessori </span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
